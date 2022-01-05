@@ -77,12 +77,12 @@ module.exports = {
           process.env.MNEMONIC,
           `https://rpc-testnet.rei.network`
         ),
-      network_id: 3, // Ropsten's id
-      gas: 5500000, // Ropsten has a lower block limit than mainnet
+      network_id: 12357, 
+      gas: 5500000, 
       networkCheckTimeout: 5000,
-      confirmations: 2, // # of confs to wait between deployments. (default: 0)
-      timeoutBlocks: 150, // # of blocks before a deployment times out  (minimum/default: 50)
-      skipDryRun: true, // Skip dry run before migrations? (default: false for public nets )
+      confirmations: 2, 
+      timeoutBlocks: 150, 
+      skipDryRun: true, 
     },
     live: {
       provider: () =>
@@ -90,7 +90,7 @@ module.exports = {
           process.env.MNEMONIC,
           `https://rpc.rei.network`
         ),
-      network_id: 1,
+      network_id: 47805,
       networkCheckTimeout: 5000,
       gas: 6000000,
       gasPrice: 100 * 1000000000,
