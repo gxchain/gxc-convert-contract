@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "gxc",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "rei": "truffle migrate --network rei",
+    "live": "truffle migrate --network live"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@truffle/hdwallet-provider": "^1.0.42",
+    "bip39": "^3.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "truffle-plugin-verify": "^0.4.0"
+  }
+}
